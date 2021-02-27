@@ -37,7 +37,15 @@
 <body>
   <!-- ======= Header Section ======= -->
   <header id="header" class="fixed-top">
-  <div id="header-div"></div>
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+      <!-- <h1 class="logo"><a href="${BACK_DIR_INDEX}">MForce</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/MForce_logo_White.svg" alt="" class="img-fluid"></a>
+      <nav class="nav-menu d-none d-lg-block">
+        <div id="header-div"></div>
+      </nav><!-- .nav-menu -->
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+    </div>
   </header>
   <!-- End Header Section ======= -->
   <!-- ======= Hero Section ======= -->
@@ -473,8 +481,8 @@
   <script src="assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="header.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="footer.js"></script>
-  <script src="header.js"></script>
 </body>
 </html>

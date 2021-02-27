@@ -22,7 +22,6 @@
     scrolltoOffset += 16;
   }
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       if (target.length) {
         e.preventDefault();
@@ -49,7 +48,7 @@
         }
         return false;
       }
-    }
+    
   });
 
   // Activate smooth scroll on page load with hash links in the url
