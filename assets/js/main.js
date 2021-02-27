@@ -17,7 +17,7 @@
   });
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
-  var scrolltoOffset = $('#header').outerHeight() - 16;
+  var scrolltoOffset = $('#header').outerHeight() +10;
   if (window.matchMedia("(max-width: 991px)").matches) {
     scrolltoOffset += 16;
   }
@@ -118,7 +118,7 @@
         main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
       }
       if (cur_pos < 300) {
-        $(".nav-menu ul:first li:first").addClass('active');
+        // $(".nav-menu ul:first li:first").addClass('active');
       }
     });
   });
@@ -206,5 +206,4 @@
   $(window).on('load', function() {
     aos_init();
   });
-
 })(jQuery);
