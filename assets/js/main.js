@@ -1,8 +1,8 @@
 /**
-* Template Name: Dewi - v2.2.1
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: MForce Inc
+* Template URL: https://mforceinc.com
+* Author: Appseonit Technologies Private Limited
+* License: https://appseonit.com/license/
 */
 !(function($) {
   "use strict";
@@ -10,7 +10,7 @@
   // Preloader
   $(window).on('load', function() {
     if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function() {
+      $('#preloader').delay(50).fadeOut('slow', function() {
         $(this).remove();
       });
     }
@@ -63,12 +63,14 @@
       }
     }
   });
-
+  // This is written in header.js
+  addHeaderMenus();
   // Mobile Navigation
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
     });
+    
     $('body').append($mobile_nav);
     $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
     $('body').append('<div class="mobile-nav-overly"></div>');
@@ -79,7 +81,7 @@
       $('.mobile-nav-overly').toggle();
     });
 
-    $(document).on('click', '.mobile-nav .drop-down > a', function(e) {
+    $(document).on('click', '.mobile-nav #header-div .drop-down > a', function(e) {
       e.preventDefault();
       $(this).next().slideToggle(300);
       $(this).parent().toggleClass('active');

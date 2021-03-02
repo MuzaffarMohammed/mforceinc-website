@@ -350,12 +350,12 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav #header-div a:hover, .mobile-nav #header-div .active > a, .mobile-nav #header-div li:hover > a {
   color: #3498DB;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav #header-div .drop-down > a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -363,20 +363,20 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
-.mobile-nav .active .drop-down > a:after {
+.mobile-nav #header-div .active .drop-down > a:after {
   content: "\eaa1";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav #header-div .drop-down > a {
   padding-right: 35px;
 }
 
-.mobile-nav .drop-down ul {
+.mobile-nav #header-div .drop-down ul {
   display: none;
   overflow: hidden;
 }
 
-.mobile-nav .drop-down li {
+.mobile-nav #header-div .drop-down li {
   padding-left: 20px;
 }
 
@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.mobile-nav-active .mobile-nav #header-div{
+.mobile-nav-active .mobile-nav{
   opacity: 1;
   visibility: visible;
 }
@@ -411,6 +411,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -564,7 +566,8 @@ section {
 
 @media (max-width: 768px) {
   .section-title h2 {
-    font-size: 24px;
+    font-size: 20px;
+    display: inline;
   }
 }
 
