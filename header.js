@@ -51,14 +51,14 @@
                     </li>
                         <li class="drop-down"><a href="#services">ERP Services</a>
                         <ul>
-                            <li><a href="${URI}erpservices.html#functional-consulting">Functional consulting</a></li>
-                            <li><a href="#">Implementation</a></li>
-                            <li><a href="#">Upgrade and Consolidate</a></li>
-                            <li><a href="#">Extension and integration</a></li>
-                            <li><a href="#">Porting and migration</a></li>
-                            <li><a href="#">Post implementation support</a></li>
-                            <li><a href="#">Business process analysis</a></li>
-                            <li><a href="#">Functional application extensions</a></li>
+                            <li><a href="${URI}erpservices.html#functional-consulting">Functional Consulting</a></li>
+                            <li><a href="${URI}erpservices.html#implementation">Implementation</a></li>
+                            <li><a href="${URI}erpservices.html#upgrade-consolidate">Upgrade and Consolidate</a></li>
+                            <li><a href="${URI}erpservices.html#extension-integration">Extension and Integration</a></li>
+                            <li><a href="${URI}erpservices.html#porting-migration">Porting and Migration</a></li>
+                            <li><a href="${URI}erpservices.html#post-implementation-support">Post Implementation Support</a></li>
+                            <li><a href="${URI}erpservices.html#business-process-analysis">Business Process Analysis</a></li>
+                            <li><a href="${URI}erpservices.html#functional-app-ext">Functional Application Extensions</a></li>
                         </ul>
                     </li>
                     <li><a href="${URI}client.html">Our Clients</a></li>
