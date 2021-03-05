@@ -8,7 +8,7 @@
 function addHeaderMenus(){
     var URI = "";
     var BACK_DIR_INDEX = "../index.html";
-    if(window.location.pathname.indexOf('index.html') !== -1){
+    if(window.location.pathname.indexOf('index.html') !== -1 || window.location.pathname === "/"){
         URI = "pages/";
         BACK_DIR_INDEX = "index.html";
     }
