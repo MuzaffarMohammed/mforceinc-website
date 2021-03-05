@@ -113,7 +113,7 @@
     "clientId": "1",
     "name": this_form.find('.form-control')[0].value,
     "email":this_form.find('.form-control')[1].value,
-    "subject":this_form.find('.form-control')[2].value,
+    "contactNo":this_form.find('.form-control')[2].value,
     "message":this_form.find('.form-control')[3].value
   }
     mail(this_form, action, data);
