@@ -23,11 +23,10 @@
                    <strong>Email:</strong> admin@mforceinc.com<br>
                  </p>
                  <div class="social-links mt-3">
-                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                   <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                   <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                   <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                   <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                   <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                   <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                   <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                   <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
                  </div>
                </div>
              </div>
@@ -35,25 +34,29 @@
              <div class="col-lg-2 col-md-6 footer-links">
                <h4>Useful Links</h4>
                <ul>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${DIR_BACK}index.html">Home</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${DIR_BACK}index.html#about">About us</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${DIR_BACK}index.html#services">Services</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${DIR_BACK}termsandservices.html">Terms of service</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${DIR_BACK}privacypolicy.html">Privacy policy</a></li>
-               </ul>
+                 <li><i class="chevron right"></i> <a href="${DIR_BACK}index.html">Home</a></li>
+                 <li><i class="chevron right"></i> <a href="${DIR_BACK}index.html#about">About us</a></li>
+                 <li><i class="chevron right"></i> <a href="${DIR_BACK}index.html#services">Services</a></li>
+                 <li><i class="chevron right"></i> <a href="${DIR_BACK}index.html#services">ERP Services</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}client.html">Our Clients</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}team.html">Our Team</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}career.html">Careers</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}contactus.html">Contact Us</a></li>
+
+                 </ul>
              </div>
    
              <div class="col-lg-3 col-md-6 footer-links">
                <h4>Our Services</h4>
                <ul>
-                 <li><i class="bx bx-chevron-right"></i> <a href="https://www.appseonit.com/pages/website_categories.html">Web Design</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="https://www.appseonit.com/pages/software_development.html">Web Development</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="https://www.appseonit.com/pages/software_development.html">Software Development</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${URI}services.html#software-testing">Software Testing</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${URI}services.html#cloud-computing">Cloud Computing</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${URI}erpservices.html#porting-migration">Porting And Migration</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${URI}erpservices.html#functional-consulting">Functional Consulting</a></li>
-                 <li><i class="bx bx-chevron-right"></i> <a href="${URI}erpservices.html#business-process-analysis">Business Process Analysis</a></li>
+                 <li><i class="chevron right"></i> <a href="https://www.appseonit.com/pages/website_categories.html">Web Design</a></li>
+                 <li><i class="chevron right"></i> <a href="https://www.appseonit.com/pages/software_development.html">Web Development</a></li>
+                 <li><i class="chevron right"></i> <a href="https://www.appseonit.com/pages/software_development.html">Software Development</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}services.html#software-testing">Software Testing</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}services.html#cloud-computing">Cloud Computing</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}erpservices.html#porting-migration">Porting And Migration</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}erpservices.html#functional-consulting">Functional Consulting</a></li>
+                 <li><i class="chevron right"></i> <a href="${URI}erpservices.html#business-process-analysis">Business Process Analysis</a></li>
                </ul>
              </div>
    
