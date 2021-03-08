@@ -15,7 +15,7 @@
            <div class="row">
              <div class="col-lg-3 col-md-6">
                <div class="footer-info">
-                 <h3>MForce,INC</h3>
+                 <h3>MFORCE,INC</h3>
                  <p>
                    445 East FM Road 1382,<br>
                    Cedar Hill, Texas 75104, United States<br><br>
