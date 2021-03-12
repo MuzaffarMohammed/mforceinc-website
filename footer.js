@@ -3,7 +3,7 @@
   $(document).ready(function () {
     var URI = "";
     var DIR_BACK = "../";
-    if(window.location.pathname.indexOf('index.html') !== -1){
+    if(window.location.pathname.indexOf('index.html') !== -1 || window.location.pathname === "/"){
       URI = "pages/";
       DIR_BACK = "";
     }
