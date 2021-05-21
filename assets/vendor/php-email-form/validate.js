@@ -1,8 +1,9 @@
 /**
-* PHP Email Form Validation - v2.3
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
+* Mforce Website - V 1.0
+* URL: https://mforceinc.com
+* Author: Appseonit Technologies Private Limited
 */
+
 !(function($) {
   "use strict";
 
@@ -123,6 +124,7 @@
   function mail(this_form, action, data) {
     $.ajax({
       type: "POST",
+      headers: { 'Content-Type': 'application/json'},
       url: "https://appseonit-mail.herokuapp.com/send",
       data: data,
       timeout: 40000
