@@ -124,7 +124,6 @@
   function mail(this_form, action, data) {
     $.ajax({
       type: "POST",
-      headers: { 'Content-Type': 'application/json'},
       url: "https://appseonit-mail.herokuapp.com/send",
       data: data,
       timeout: 40000
